@@ -1,6 +1,6 @@
 # PYNANCE APP
 
-Simple [Electron](http://electronjs.org) application that shows undervalued options off the NASDAQ
+Simple [Electron](http://electronjs.org) application that shows undervalued options off the NASDAQ. Undervalued is defined for call options as being sold for less than it could be executed and sold for.
 
 ## Getting started
 
@@ -14,9 +14,8 @@ Simple [Electron](http://electronjs.org) application that shows undervalued opti
 
 Here are some ideas on how it can be improved using other Electron APIs.
 
-- Double-click commodity to open directly on https://stooq.com
+- Double-click commodity to open directly
 - Refresh automatically on an interval.
-- Add the price of platinum (`PL=F`) to the app.
 - Export prices to a `.csv` file.
 - Show percentage change in price.
-- Show notifications when prices go above/below certain amounts.
+- Show notifications through SNS when prices go above/below certain amounts.
