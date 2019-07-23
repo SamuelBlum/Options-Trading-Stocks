@@ -6,7 +6,6 @@ Simple [Electron](http://electronjs.org) application that shows undervalued opti
 
 - Install [Node LTS](https://nodejs.org)
 - Clone this repository
-- `cd prices`
 - `npm install` to install the application's dependencies
 - `npm start` to start the application
 
