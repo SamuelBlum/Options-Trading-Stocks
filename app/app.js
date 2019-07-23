@@ -38,6 +38,6 @@ window.once('ready-to-show', () => {
 })
 
 function webScrape () {
-    exec('./scottrade.py');   
+    exec('../pynance.py');   
  //    var python = require('child_process').spawn('python',['./scottrade.py']);
 }
