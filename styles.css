@@ -1,0 +1,57 @@
+.title, .title small {
+  color: #4682B4;
+}
+
+.sinclair, .sinclair small {
+/*  background-color: silver; */
+  color: #4682B4;
+}
+
+.mannkind, .mannkind small {
+/*  background-color: silver; */
+  color: #4682B4;
+}
+
+.gtn, .gtn small {
+/*  background-color: silver; */
+  color: #4682B4;
+}
+
+html, body, .container-fluid {
+  height: 100%;
+  background-color: light blue;
+}
+
+.row {
+  height: 33.333333%;
+}
+
+.row > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.price {
+  padding-right: 5px;
+}
+
+/* Add a ( before the change */
+.change::before {
+  content: '(';
+}
+
+/* Add a ) after the change */
+.change::after {
+  content: ')';
+}
+
+/* Add a $ before the price */
+.price::before {
+  content: '$';
+}
+
+/* Hide the price and change when they are empty */
+.change:empty, .price:empty {
+  display: none;
+}
