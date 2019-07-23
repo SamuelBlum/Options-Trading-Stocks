@@ -1,8 +1,8 @@
 {
   "name": "Prices",
   "version": "1.0.0",
-  "description": "Prices of commodities",
-  "repository": "electron/simple-samples",
+  "description": "Options Trading",
+  "repository": "SamuelBlum/Pynance",
   "main": "app.js",
   "scripts": {
     "start": "electron app.js"
