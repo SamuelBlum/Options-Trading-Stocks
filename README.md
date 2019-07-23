@@ -9,6 +9,12 @@ Simple [Electron](http://electronjs.org) application that shows undervalued opti
 - `npm install` to install the application's dependencies
 - `npm start` to start the application
 
+## Architecture
+
+- `pynance.py` is the backend webscraping script that searches scottrade for undervalued options. This script will be deployed to the cloud.
+- `app` folder contains the front end of the app
+- `aws_routines.py` will be the communication between the cloud instance of the backend, and the client
+
 ## Going further
 
 Here are some ideas on how it can be improved using other Electron APIs.
