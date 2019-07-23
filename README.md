@@ -12,7 +12,7 @@ Simple [Electron](http://electronjs.org) application that shows undervalued opti
 ## Architecture
 
 - `pynance.py` is the backend webscraping script that searches scottrade for undervalued options. This script will be deployed to the cloud.
-- `app` folder contains the front end of the app
+- `app` folder contains the client
 - `aws_routines.py` will be the communication between the cloud instance of the backend, and the client
 
 ## Finding Undervalued Call Options
